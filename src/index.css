@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+  height: auto;
+  background: radial-gradient(circle, rgba(105, 72, 0, 0.9), rgba(34, 34, 34, 1));
+  /*   background: url("src/assets/images/noise-texture.jpeg");
+  background-position: center;
+  background-blend-mode:overlay; */
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  
+}
+
+.noise {
+  background: url("src/assets/images/noise-texture.jpeg");
+  background-position: center;
+  background-repeat: repeat;
+  z-index: 100
+}

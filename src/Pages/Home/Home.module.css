@@ -1,0 +1,19 @@
+
+.home{
+    font-size: 56px;
+    position: relative;
+    z-index: 10;
+    background-image: url("src/assets/images/Background Poster.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 80vh;
+}
+
+span {
+    color: blue;
+    
+}
+
+.welcomeText {
+    width: 60%;
+}
