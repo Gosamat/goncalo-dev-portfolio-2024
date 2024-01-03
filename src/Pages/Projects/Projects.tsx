@@ -32,7 +32,7 @@ export default function Projects(){
   return (
 <section className='flex flex-col justify-center'>
   <div className='flex flex-col justify-center w-2/3 my-5'>
-      <h1 className="mb-3 text-start px-6 text-5xl" >Projects</h1>
+      <h1 className="mb-3 text-start px-6 text-5xl font-bold" >Projects</h1>
       <div className='flex flex-row flex-wrap justify-center'>
         {
           projects.map((project)=>{

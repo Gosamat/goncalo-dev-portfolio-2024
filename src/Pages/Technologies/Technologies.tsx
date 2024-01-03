@@ -65,7 +65,7 @@ export default function Technologies() {
   return (
 <section className='flex flex-col justify-center'>
   <div className='flex flex-col justify-center w-2/3 my-5'>
-      <h1 className="mb-3 text-start px-6 text-5xl" >Tech Stack</h1>
+      <h1 className="mb-3 text-start px-6 text-5xl font-bold" >Tech Stack</h1>
       <div className='flex flex-row flex-wrap justify-start'>
         {
           techStack.map((item)=>{
@@ -76,7 +76,7 @@ export default function Technologies() {
       </div>
       </div>
       <div className='flex flex-col justify-center w-2/3 my-5'>
-      <h1 className="mb-3 text-start px-6 text-5xl" >Tools</h1>
+      <h1 className="mb-3 text-start px-6 text-5xl font-bold" >Tools</h1>
       <div className='flex flex-row flex-wrap justify-start'>
         {
           tools.map((item)=>{

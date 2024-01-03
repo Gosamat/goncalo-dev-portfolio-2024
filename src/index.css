@@ -1,15 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
 .app {
   height: auto;
-  background: radial-gradient(circle, rgba(105, 72, 0, 0.9), rgba(34, 34, 34, 1));
-  /*   background: url("src/assets/images/noise-texture.jpeg");
+  /*background: radial-gradient(circle, rgba(105, 72, 0, 0.9), rgba(34, 34, 34, 1));
+     background: url("src/assets/images/noise-texture.jpeg");
   background-position: center;
   background-blend-mode:overlay; */
+  background-color: #3138fbd3;
+  color: rgb(255, 255, 255);    
+  font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -25,5 +29,6 @@ section {
   background: url("src/assets/images/noise-texture.jpeg");
   background-position: center;
   background-repeat: repeat;
+  background-size: 500px 500px;
   z-index: 100
 }

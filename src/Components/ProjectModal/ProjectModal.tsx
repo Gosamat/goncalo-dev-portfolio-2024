@@ -14,8 +14,7 @@ export function ProjectModal(props) {
 
   return (
     <Card
-    isBlurred
-    className="border-none bg-background/60 dark:bg-default-100/50 m-3 hover:scale-105"
+    className="border-none bg-background/20 dark:bg-default-100/50 m-3 hover:scale-105"
     shadow="sm"
   >
     <CardBody>

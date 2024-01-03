@@ -18,14 +18,16 @@ export default function Home() {
           <h3>
             a <span>Software Developer</span>
           </h3>
-          <div>
+          <div className="flex">
             <Button color="primary" size="lg">
               <ScrollLink to="contacts" smooth={true} duration={500}>
-                Get in touch with me!
+                Get in touch!
               </ScrollLink>
             </Button>
         </div>
         </div>
+      </div>
+      <div className={styles.divider}>
       </div>
     </section>
   );

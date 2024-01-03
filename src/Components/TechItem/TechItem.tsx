@@ -17,7 +17,7 @@ export default function TechItem (props){
   };
 
     return(
-        <Popover isOpen={isOpen} placement="top" offset={1}>
+        <Popover backdrop="transparent" isOpen={isOpen} placement="top" offset={1}>
             <PopoverTrigger onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}>
         <div className={styles.icon}>
