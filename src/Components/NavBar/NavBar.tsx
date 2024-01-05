@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Button } from "@nextui-org/react";
 import { Link as NextUILink } from "@nextui-org/react";
 import { Link as ScrollLink } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import styles from "./NavBar.module.css"
 
 export function NavBar() {
@@ -41,16 +42,17 @@ export function NavBar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-            <ScrollLink to="home" smooth={true} duration={500}>
+          <a href="#" onClick={() => scroll.scrollToTop({ duration: 500, smooth: true })}>
               Home
-            </ScrollLink>
+            </a>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-            <ScrollLink to="about" smooth={true} duration={500}>
+          <a onClick={() => scroll.scrollTo("about",{ duration: 500, smooth: true })}>
+
               About
-            </ScrollLink>
+            </a>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>

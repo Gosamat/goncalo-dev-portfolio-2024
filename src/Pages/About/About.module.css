@@ -10,6 +10,7 @@
   filter: drop-shadow(0 1rem 0.75rem rgba(0, 0, 0, 0.3));
   height: auto;
   padding: 5rem 0;
+  position: relative;
 }
 
 .about:hover {
@@ -21,4 +22,47 @@
 .text{
   width: 70%;
   text-align: center;
+}
+
+.divider-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.divider-top svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 54px;
+  transform: rotateY(180deg);
+}
+
+.divider-top .shape-top {
+  fill: #3138fb;
+}
+
+.divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 54px;
+  transform: rotateY(180deg);
+}
+
+.divider-bottom .shape-bottom {
+  fill: #3138fb;
 }

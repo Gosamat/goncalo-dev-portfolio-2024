@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from "./Contacts.module.css"
 
 export default function Contacts(){
 
   return (
-<section className='flex flex-col p-5 items-center '>
+<section className={`flex flex-col p-5 items-center ${styles['contacts-page']}`}>
   <h3 className='mb-3 text-2xl font-bold'>Contact Me</h3>
   <div className='flex flex-row flex-wrap justify-center gap-8'>
     <div className="text-center">

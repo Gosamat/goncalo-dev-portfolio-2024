@@ -1,0 +1,21 @@
+.divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 54px;
+    transform: rotateY(180deg);
+  }
+  
+  .divider-top .shape-top {
+    fill: #3138fb;
+    
+  }

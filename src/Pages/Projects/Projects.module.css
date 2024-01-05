@@ -1,0 +1,25 @@
+.projects-page{
+    position: relative;
+}
+
+.divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 54px;
+    transform: rotateY(180deg);
+  }
+  
+  .divider-bottom .shape-bottom {
+    fill: rgb(255, 247, 241);
+  }
