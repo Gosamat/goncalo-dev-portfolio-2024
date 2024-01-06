@@ -5,17 +5,17 @@ export default function Contacts(){
 
   return (
 <section className={`flex flex-col p-5 items-center ${styles['contacts-page']}`}>
-  <h3 className='mb-3 text-2xl font-bold'>Contact Me</h3>
-  <div className='flex flex-row flex-wrap justify-center gap-8'>
+  <h3 className='mb-3 text-4xl font-bold text-noisy-blue'>Get in touch!</h3>
+  <div className='flex flex-col flex-wrap justify-center gap-8'>
     <div className="text-center">
-      <h4 className="text-lg font-semibold">Email</h4>
+      <h4 className="text-lg font-bold">Email</h4>
       <a href="mailto:gosamatias@gmail.com" className="text-blue-600 hover:underline">
         gosamatias@gmail.com
       </a>
     </div>
 
     <div className="text-center">
-      <h4 className="text-lg font-semibold">LinkedIn</h4>
+      <h4 className="text-lg font-bold">LinkedIn</h4>
       <a
         href="https://www.linkedin.com/in/gosamatias"
         target="_blank"
@@ -24,11 +24,6 @@ export default function Contacts(){
       >
         https://www.linkedin.com/in/gosamatias
       </a>
-    </div>
-
-    <div className="text-center">
-      <h4 className="text-lg font-semibold">Instagram</h4>
-      <p className="text-gray-600">Insert Insta Link here</p>
     </div>
   </div>
 </section>

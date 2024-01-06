@@ -36,6 +36,12 @@ export default function Technologies() {
   {id:11,
     techName:"PostgreSQL",
   techImage: "src/assets/images/postgresql-icon.png"},
+  {id:12,
+    techName:"Python",
+  techImage: "src/assets/images/python-icon.png"},
+  {id:13,
+    techName:"Typescript",
+  techImage: "src/assets/images/typescript-icon.png"}
  ];
 
  const tools = [

@@ -9,7 +9,6 @@ export function NavBar() {
 
   const [navBarBordered, setNavBarBordered]=useState(false);
   const [navbarColor, setNavbarColor] = useState("bg-transparent");
-  const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(()=>{
     const handleScroll = () =>{
@@ -17,7 +16,6 @@ export function NavBar() {
   
     const currentPosition = window.scrollY;
     
-    setScrollPosition(currentPosition);
 
     if(currentPosition>20){
       setNavbarColor("bg-noisy-blue");
@@ -42,36 +40,36 @@ export function NavBar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-          <a href="#" onClick={() => scroll.scrollToTop({ duration: 500, smooth: true })}>
+          <ScrollLink to="home" smooth={true} duration={500} className={"cursor-pointer"}>
               Home
-            </a>
+            </ScrollLink>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-          <a onClick={() => scroll.scrollTo("about",{ duration: 500, smooth: true })}>
+          <ScrollLink to="about" smooth={true} duration={500} className={"cursor-pointer"}>
 
               About
-            </a>
+              </ScrollLink>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-            <ScrollLink to="technologies" smooth={true} duration={500}>
+            <ScrollLink to="technologies" smooth={true} duration={500} className={"cursor-pointer"}>
               Technologies
             </ScrollLink>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-            <ScrollLink to="projects" smooth={true} duration={500}>
+            <ScrollLink to="projects" smooth={true} duration={500} className={"cursor-pointer"}>
               Projects
             </ScrollLink>
           </NextUILink>
         </NavbarItem>
         <NavbarItem>
           <NextUILink color="foreground" className=" font-bold">
-            <ScrollLink to="contacts" smooth={true} duration={500}>
+            <ScrollLink to="contacts" smooth={true} duration={500} className={"cursor-pointer"}>
               Contacts
             </ScrollLink>
           </NextUILink>

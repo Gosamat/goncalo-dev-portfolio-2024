@@ -14,7 +14,7 @@ export function ProjectModal(props) {
 
   return (
     <Card
-    className="border-none bg-background/20 dark:bg-default-100/50 m-3 hover:scale-105"
+    className="border-none bg-background/20 dark:bg-default-100/50 m-3 hover:scale-105 w-full"
     shadow="sm"
   >
     <CardBody>
