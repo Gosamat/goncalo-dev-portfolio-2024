@@ -1,7 +1,6 @@
 // NavBar.tsx
 import { useEffect, useState } from 'react';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react';
-import { Link as NextUILink } from '@nextui-org/react';
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -37,39 +36,29 @@ export function NavBar() {
       <NavbarBrand />
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <NextUILink  className={`font-bold ${navTextColor}`}>
-            <ScrollLink to="home" smooth={true} duration={500} className={'cursor-pointer'}>
+            <ScrollLink to="home" smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`}>
               Home
             </ScrollLink>
-          </NextUILink>
         </NavbarItem>
         <NavbarItem>
-          <NextUILink color="foreground" className={`font-bold ${navTextColor}`}>
-            <ScrollLink to="about" smooth={true} duration={500} className={'cursor-pointer'}>
+            <ScrollLink to="about" smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`}>
               About
             </ScrollLink>
-          </NextUILink>
         </NavbarItem>
         <NavbarItem>
-          <NextUILink color="foreground" className={`font-bold ${navTextColor}`}>
-            <ScrollLink to="technologies" smooth={true} duration={500} className={'cursor-pointer'}>
+            <ScrollLink to="technologies" smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`}>
               Technologies
             </ScrollLink>
-          </NextUILink>
         </NavbarItem>
         <NavbarItem>
-          <NextUILink color="foreground" className={`font-bold ${navTextColor}`}>
-            <ScrollLink to="projects" smooth={true} duration={500} className={'cursor-pointer'}>
+            <ScrollLink to="projects" smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`}>
               Projects
             </ScrollLink>
-          </NextUILink>
         </NavbarItem>
         <NavbarItem>
-          <NextUILink color="foreground" className={`font-bold ${navTextColor}`}>
-            <ScrollLink to="contacts" smooth={true} duration={500} className={'cursor-pointer'}>
+            <ScrollLink to="contacts" smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`}>
               Contacts
             </ScrollLink>
-          </NextUILink>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">{/* Additional content on the right side of the navbar if needed */}</NavbarContent>

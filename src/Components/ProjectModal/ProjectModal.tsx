@@ -24,7 +24,7 @@ const ProjectModal: React.FC<ProjectModalProps> = (props) => {
 
   return (
     <Card
-      className={ `${styles.projects} border-solid border-2 border-charcoal-black bg-beige m-4 hover:scale-105 w-full `}
+      className={` ${styles.projects} border-solid border-2 border-charcoal-black bg-beige m-4 hover:scale-105 w-full`}
       shadow="none"
     >
       <CardBody>
