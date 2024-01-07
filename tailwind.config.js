@@ -12,6 +12,9 @@ export default {
     extend: {
       colors: {
         'noisy-blue': '#3138fb',
+        'charcoal-black': '#212121',
+        'pastel-blue': '#B4D9EF',
+        'beige': "fcf6ee"
       },
     },
   },

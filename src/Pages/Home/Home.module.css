@@ -1,10 +1,9 @@
 
 .home{
-    font-size: 100px;
-    color: rgb(27, 27, 27);    
+    color: #212121;    
     position: relative;
     z-index: 10;
-    background-image: url("src/assets/images/Background Poster.png");
+    background-image: url("src/assets/images/background-poster-2.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 80vh;
@@ -16,7 +15,9 @@
 }
 
 span {
-    color: blue;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #212121;
     
 }
 
@@ -45,5 +46,9 @@ span {
 }
 
 .divider .shape {
-    fill: #3138fb;
+    fill: #B4D9EF;
+}
+
+.touch-button{
+    box-shadow: 1px 1px 3px rgb(255, 255, 255), 5px 5px #212121
 }

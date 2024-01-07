@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
   return (
     <section className={`flex flex-col justify-center ${styles['projects-page']}`}>
       <div className='flex flex-col justify-center w-2/3 my-5'>
-        <h1 className="mb-3 text-start px-6 text-5xl font-bold">Projects</h1>
+        <h1 className="mb-3 text-start px-6 text-5xl font-bold text-charcoal-black">Projects</h1>
         <div className='flex flex-row flex-wrap justify-center mb-5'>
           {projects.map((project) => (
             <ProjectModal key={project.projectName} {...project} />

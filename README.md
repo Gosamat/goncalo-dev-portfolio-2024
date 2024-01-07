@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# 🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🌟 This project was done to have a primary location where I can showcase my skills and projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home:** Welcome section with a my name, title and photo.
+- **About:** A section providing more details about me.
+- **Technologies:** Highlights the tech stack I am familiar with.
+- **Projects:** Showcases some of the projects I have worked on.
+- **Contacts:** Ways to get in touch with me.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was built using cutting-edge technologies:
 
-- Configure the top-level `parserOptions` property like this:
+- **React**
+- **NextUI** for UI components
+- **TypeScript**
+- **React-Scroll** for smooth scrolling
+- **CSS** (Tailwind CSS and custom styles)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Project Structure
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The project is organized as follows:
+
+- **src/components:** Reusable components used across different sections.
+- **src/pages:** Each section of the website (Home, About, Technologies, Projects, Contacts) has its own page file.
+- **src/assets:** Images, icons, and other assets used in the project.
+- **styles:** Global styles and Tailwind CSS configurations.
+
+Feel free to explore the codebase to understand how each section was implemented, I plan to continously improve my portfolio as time goes on, so if you have any suggestion or idea, feel free to reach out!

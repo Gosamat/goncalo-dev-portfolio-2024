@@ -1,20 +1,21 @@
 
 .about {
-  color: rgb(59, 59, 59);    
-  background: url("src/assets/images/noise-texture.jpeg"),hsla(34, 78%, 91%, 1);
+  color: #212121;    
+  background: url("src/assets/images/noise-texture.jpeg"),#faead6;
   background-blend-mode: screen;
-  border-radius: 20px;
+  border-radius: 10px;
+  border:  2px solid #212121;
   background-position: center;
   background-repeat: repeat;
   background-size: 500px 500px;
-  filter: drop-shadow(0 1rem 0.75rem rgba(0, 0, 0, 0.3));
+  box-shadow: 15px 15px #212121;
   height: auto;
   padding: 5rem 0;
   position: relative;
 }
 
 .about:hover {
-  filter: drop-shadow(0 1rem 0.75rem hsla(34, 78%, 91%, .3));
+  box-shadow: 15px 15px #212121;
 
 
 }
@@ -42,7 +43,7 @@
 }
 
 .divider-top .shape-top {
-  fill: #3138fb;
+  fill: #B4D9EF;
 }
 
 .divider-bottom {
@@ -64,5 +65,5 @@
 }
 
 .divider-bottom .shape-bottom {
-  fill: #3138fb;
+  fill: #B4D9EF;
 }

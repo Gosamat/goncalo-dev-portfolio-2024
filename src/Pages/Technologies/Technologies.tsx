@@ -77,7 +77,7 @@ const Technologies: React.FC = () => {
   return (
     <section className='flex flex-col justify-center relative'>
       <div className='flex flex-col justify-center w-2/3 my-5 py-5'>
-        <h1 className="mb-3 text-start px-6 text-5xl font-bold">Tech Stack</h1>
+        <h1 className="mb-3 text-start px-6 text-5xl font-bold text-charcoal-black">Tech Stack</h1>
         <div className='flex flex-row flex-wrap justify-start'>
           {techStack.map((item) => (
             <TechItem key={item.id} techName={item.techName} techImage={item.techImage} />
@@ -85,7 +85,7 @@ const Technologies: React.FC = () => {
         </div>
       </div>
       <div className='flex flex-col justify-center w-2/3 my-5'>
-        <h1 className="mb-3 text-start px-6 text-5xl font-bold">Tools</h1>
+        <h1 className="mb-3 text-start px-6 text-5xl font-bold text-charcoal-black">Tools</h1>
         <div className='flex flex-row flex-wrap justify-start'>
           {tools.map((item) => (
             <TechItem key={item.id} {...item} />
