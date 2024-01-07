@@ -1,10 +1,9 @@
 // NavBar.tsx
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react';
 import { Link as NextUILink } from '@nextui-org/react';
 import { Link as ScrollLink } from 'react-scroll';
-import { animateScroll as scroll } from 'react-scroll';
-import styles from './NavBar.module.css';
+
 
 export function NavBar() {
   const [navBarBordered, setNavBarBordered] = useState(false);
