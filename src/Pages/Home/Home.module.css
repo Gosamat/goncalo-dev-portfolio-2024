@@ -3,7 +3,7 @@
     color: #212121;    
     position: relative;
     z-index: 10;
-    background-image: url("/images/background-poster-2.png");
+    background-image: url("public/images/background-poster-2.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 80vh;

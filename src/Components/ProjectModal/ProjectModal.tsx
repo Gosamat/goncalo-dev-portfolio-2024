@@ -1,7 +1,6 @@
 // ProjectModal.tsx
 import React from 'react';
 import { Card, Image, CardBody, Link } from '@nextui-org/react';
-import styles from './ProjectModal.module.css'
 
 interface ProjectModalProps {
   projectName: string;
@@ -24,7 +23,7 @@ const ProjectModal: React.FC<ProjectModalProps> = (props) => {
 
   return (
     <Card
-      className={` ${styles.projects} border-solid border-2 border-charcoal-black bg-beige m-4 hover:scale-105 w-full`}
+      className={`shadow-[10px_10px_0_0_rgba(33,33,33,1)] text-charcoal-black border-solid border-2 border-charcoal-black bg-beige m-4 hover:scale-105 w-full`}
       shadow="none"
     >
       <CardBody>
