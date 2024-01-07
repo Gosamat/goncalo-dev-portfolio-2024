@@ -46,7 +46,7 @@ span {
 @media only screen and (max-width: 800px) {
 
     .home{
-        background-image: url("images/background-poster-2.png");
+        background-image: url("/images/background-poster-2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 40vh;
