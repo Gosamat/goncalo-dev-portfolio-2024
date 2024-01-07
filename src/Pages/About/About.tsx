@@ -13,7 +13,7 @@ export default function About() {
       excitement and I'm steadily increasing my skillset every day.
     </p>
     <p className="text-lg leading-7 ms-4">
-      Thanks to my previous experiences in start-ups, I've acquired exceptional problem-solving skills,
+      Thanks to my previous experiences in start-ups, I've acquired great problem-solving skills,
       which fit right at home when it comes to coding.🕵️‍♂️
     </p>
     <p className="text-lg leading-7 m-4">
@@ -22,7 +22,7 @@ export default function About() {
       side. 🐾 
     </p>
     <p className="text-lg leading-7 mb-4">
-      Currently on the hunt for the next challenge that lets me deepen my
+      I'm always on the hunt for the next challenge that lets me deepen my
       passion for coding and further hone my skills. 🚀
     </p>
     </div>
