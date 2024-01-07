@@ -46,6 +46,7 @@ span {
 @media only screen and (max-width: 800px) {
 
     .home{
+        background-image:none;
         color: #212121;    
         display: flex;
         flex-direction: column;

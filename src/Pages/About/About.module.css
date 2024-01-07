@@ -29,7 +29,18 @@
 @media only screen and (max-width: 800px) {
 
   .about {
+    color: #212121;    
+    background: url("/images/noise-texture.jpeg"),#faead6;
+    background-blend-mode: screen;
+    border-radius: 10px;
+    border:  2px solid #212121;
+    background-position: center;
+    background-repeat: repeat;
     background-size: 200px 200px;
+    box-shadow: 15px 15px #212121;
+    height: auto;
+    padding: 5rem 0;
+    position: relative;
   }
 
   .text{
