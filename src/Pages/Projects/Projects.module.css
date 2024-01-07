@@ -8,4 +8,9 @@
   .projects-page{
     height: auto;
 }
+
+
+.projects-page h1{
+  text-align: center;
+}
 }

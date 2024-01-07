@@ -11,7 +11,7 @@ const Home: React.FC<HomeProps> = () => {
       <div className={styles.welcomeText}>
         <div className={styles['text-container']}>
           <h1 className={styles["top-text"]}>
-            Hi there <span>&#128587;</span>
+            Hi there <span className={styles.emoji}>&#128587;</span>
           </h1>
           <h3 className={styles["lower-text"]}>
             I'm <span>Gonçalo</span>,

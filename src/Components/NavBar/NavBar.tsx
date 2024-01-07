@@ -6,6 +6,10 @@ import styles from './NavBar.module.css';
 export function NavBar() {
   const [navBarBordered, setNavBarBordered] = useState(false);
   const [navbarColor, setNavbarColor] = useState('bg-transparent');
+  const [mobileNavbarColor, setMobileNavbarColor] = useState('bg-beige');
+  const [mobileNavbarToggleColor, setMobileNavbarToggleColor] = useState('text-charcoal-black');
+
+
   const [navTextColor, setNavTextColor] = useState('text-charcoal-black');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,22 +17,27 @@ export function NavBar() {
     const handleScroll = () => {
       const currentPosition = window.scrollY;
 
-      if (currentPosition > 20) {
+      if (currentPosition > 20 ) {
         setNavbarColor('bg-charcoal-black');
-        setNavTextColor('text-white');
+        setNavTextColor('text-beige');
+        setMobileNavbarColor('bg-charcoal-black');
+        setMobileNavbarToggleColor('text-beige');
         setNavBarBordered(true);
       } else {
         setNavbarColor('bg-transparent');
         setNavTextColor('text-charcoal-black');
+        setMobileNavbarColor('bg-beige');
+        setMobileNavbarToggleColor('text-charcoal-black');
         setNavBarBordered(false);
       }
     };
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [isMenuOpen]);
 
 
   const menuItems = [
@@ -44,7 +53,7 @@ export function NavBar() {
       <NavbarBrand />
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="sm:hidden flex items-center'"
+        className={`sm:hidden flex items-center ${mobileNavbarToggleColor}`}
       />
  
       <NavbarContent className="hidden md:flex gap-4" justify="center">
@@ -76,7 +85,7 @@ export function NavBar() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">{/* Additional content on the right side of the navbar if needed */}</NavbarContent>
-      <NavbarMenu className='bg-charcoal-black'>
+      <NavbarMenu className={mobileNavbarColor}>
       {menuItems.map((item, index) => (
         <NavbarMenuItem key={`${item}-${index}`}>
           <ScrollLink to={item} smooth={true} duration={500} className={`font-bold cursor-pointer ${navTextColor}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>

@@ -46,7 +46,10 @@ span {
 @media only screen and (max-width: 800px) {
 
     .home{
-        background-image:none;
+        background-image: url("images/background-poster-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 40vh;
         color: #212121;    
         display: flex;
         flex-direction: column;
@@ -70,21 +73,28 @@ span {
     .top-text{
         font-size: 52px;
         margin-bottom: 1.25rem;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fcf6ee;
     
     }
     
     .lower-text{
         font-size: 46px;
         margin-bottom: 1.25rem;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #fcf6ee;
     
     }
 
     span {
-        color: transparent;
+        color: #fcf6ee;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #212121;
         
     }
 
+    .emoji{
+        display: none;
+    }
   
   }

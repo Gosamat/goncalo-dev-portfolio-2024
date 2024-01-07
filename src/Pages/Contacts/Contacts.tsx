@@ -13,7 +13,7 @@ export default function Contacts(){
       </a>
     </div>
 
-    <div className="text-center">
+    <div className="text-center mb-5">
       <h4 className="text-lg font-bold">LinkedIn</h4>
       <a
         href="https://www.linkedin.com/in/gosamatias"
