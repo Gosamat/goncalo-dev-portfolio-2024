@@ -9,18 +9,17 @@ const Home: React.FC<HomeProps> = () => {
   return (
     <section className={styles.home}>
       <div className={styles.welcomeText}>
-        <div>
-          <h1 className=" text-8xl mb-5">
+        <div className={styles['text-container']}>
+          <h1 className={styles["top-text"]}>
             Hi there <span>&#128587;</span>
           </h1>
-          <h3 className=" text-7xl">
+          <h3 className={styles["lower-text"]}>
             I'm <span>Gonçalo</span>,
           </h3>
-          <h3 className=" text-7xl mb-5">
+          <h3 className={styles["lower-text"]}>
             a <span>Software Developer</span>
           </h3>
-        
-          <div className="flex">
+          <div className="flex mb-5">
             <Button size="lg" className={`bg-charcoal-black ${styles["touch-button"]}`}>
               <ScrollLink to="contacts" smooth={true} duration={500}>
                 Get in touch!

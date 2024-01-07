@@ -13,19 +13,19 @@ function App(): JSX.Element {
       <div className="app">
         <NavBar />
         <div>
-          <Element name="home">
+          <Element name="Home">
             <Home />
           </Element>
-          <Element name="about">
+          <Element name="About">
             <About />
           </Element>
-          <Element name="technologies">
+          <Element name="Technologies">
             <Technologies />
           </Element>
-          <Element name="projects">
+          <Element name="Projects">
             <Projects />
           </Element>
-          <Element name="contacts">
+          <Element name="Contacts">
             <Contacts />
           </Element>
         </div>

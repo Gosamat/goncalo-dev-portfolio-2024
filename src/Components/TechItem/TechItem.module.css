@@ -26,3 +26,31 @@ img {
   .PopoverContent {
     background: transparent;
   }
+
+  @media only screen and (max-width: 800px) {
+    .icon{
+      width: 20%;
+      height: 20%;
+      transition: transform 0.5s ease-in-out;
+      padding: 1rem;
+      position: relative;
+      z-index: 2;
+  }
+
+
+
+  }
+
+  @media only screen and (max-width: 460px) {
+    .icon{
+      width: 30%;
+      height: 30%;
+      transition: transform 0.5s ease-in-out;
+      padding: 1rem;
+      position: relative;
+      z-index: 2;
+  }
+
+
+
+  }
