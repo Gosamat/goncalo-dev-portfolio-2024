@@ -3,7 +3,9 @@ import styles from "./About.module.css";
 export default function About() {
   return (
 <section className={`flex flex-col items-center p-5 relative bg-pastel-blue border-t-[10px] border-b-[10px] border-s border-charcoal-black`}>
+<div className={styles.noise}>
   <div className={`flex flex-col items-center justify-center ${styles.about}`}>
+ 
   <h1 className="mb-3 text-3xl font-bold text-charcoal-black">About Me</h1>
   <div className={`flex flex-col items-center ${styles.text}`} >
     <p className="text-lg leading-7 m-4">
@@ -27,7 +29,8 @@ export default function About() {
     </p>
     </div>
   </div>
-
+  </div>
+  
 </section>
 
   );
