@@ -4,7 +4,7 @@ export default function Contacts(){
 
   return (
 <section className={`flex flex-col p-5 items-center ${styles['contacts-page']}`}>
-  <h3 className='mb-3 text-4xl font-bold text-charcoal-black'>Get in touch!</h3>
+  <h3 className='my-5 text-4xl font-bold text-charcoal-black'>Get in touch!</h3>
   <div className='flex flex-col flex-wrap justify-center gap-8'>
     <div className="text-center">
       <h4 className="text-lg font-bold">Email</h4>

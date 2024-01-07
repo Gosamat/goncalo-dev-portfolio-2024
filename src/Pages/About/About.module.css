@@ -30,7 +30,8 @@
 
   .about {
     color: #212121;    
-    background: url("/images/noise-texture.jpeg"),#faead6;
+    background: url("/images/noise-texture.jpeg");
+    background-color: #faead6;
     background-blend-mode: screen;
     border-radius: 10px;
     border:  2px solid #212121;
