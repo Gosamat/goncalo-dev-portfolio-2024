@@ -21,7 +21,7 @@ const Home: React.FC<HomeProps> = () => {
           </h3>
           <div className="flex mb-5">
             <Button size="lg" className={`bg-charcoal-black ${styles["touch-button"]}`}>
-              <ScrollLink to="contacts" smooth={true} duration={500}>
+              <ScrollLink to="Contacts" smooth={true} duration={500}>
                 Get in touch!
               </ScrollLink>
             </Button>
