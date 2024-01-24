@@ -17,6 +17,10 @@ export default function Contacts(){
         rel="noopener noreferrer">
         <img src="/images/linkedin-contact-icon.png"/>
       </a>
+      <a  href="/Gonçalo-CV-2024-Software-Developer.pdf"/"
+        target="_blank">
+        <img src="/images/cv.png"/>
+      </a>
     </div>
     <hr />
     <h3 className='mt-5 text-xl text-charcoal-black'>© 2024 Gonçalo Matias</h3>
